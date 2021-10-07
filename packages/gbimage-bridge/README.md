@@ -102,7 +102,7 @@ const BridgeTest = () => {
       }
     `
   );
-  const pluginImage = getImage(image);
+  const pluginImage = getImage(placeholderImage);
 
   return (
           <BgImage image={pluginImage} style={{ minWidth: 200, minHeight: 200 }}>
@@ -135,7 +135,7 @@ const StackedBridgeTest = () => {
       }
     `
   );
-  const pluginImage = getImage(image);
+  const pluginImage = getImage(placeholderImage);
 
   // Watch out for CSS's stacking order, especially when styling the individual
   // positions! The lowermost image comes last!
